@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Gesttion_Presa_iS" version="4">
+  <OBJECT>
+    <ID name="Gesttion_Presa_iS" mc="Infrastructure.DiagramSet" uid="fae9ab62-0a16-488d-8d05-3016abddcf0e"/>
+    <PID name="Gesttion_Presa_iS" mc="Standard.Project" uid="f71bda20-5a3e-41fd-9d70-b8ec3306c176"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Gesttion_Presa_iS]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

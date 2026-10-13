@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gesttion_presa_is" version="4">
+  <OBJECT>
+    <ID name="gesttion_presa_is" mc="Standard.Package" uid="d3608e9d-edba-45dd-86a8-463ee3cd5f78"/>
+    <PID name="Gesttion_Presa_iS" mc="Standard.Project" uid="f71bda20-5a3e-41fd-9d70-b8ec3306c176"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gesttion_presa_is]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Personal operativo" mc="Standard.Actor" uid="6081e0ac-d4e0-48de-99b7-cf0991e231fe"/>
+        <COMPID name="Encargado" mc="Standard.Actor" uid="d3012774-2014-49e6-a91b-183002fc21f8"/>
+        <COMPID name="Equipo Tecnico" mc="Standard.Actor" uid="d25e1d10-acd7-47d4-a4dc-f8344f9f9892"/>
+        <COMPID name="Direccion" mc="Standard.Actor" uid="828547c3-b93f-4895-874e-97c50edcf772"/>
+        <COMPID name="Registrar Mediciones" mc="Standard.UseCase" uid="afffdba0-e8fb-4ff6-94b8-f4d6191246f4"/>
+        <COMPID name="Resgistrar Inspecciones" mc="Standard.UseCase" uid="ebb86d82-042f-4e66-8f51-89c7fbf31a47"/>
+        <COMPID name="Resgistrar Mantenimiento" mc="Standard.UseCase" uid="254880c3-c9b6-4567-b77f-4b2573f36ede"/>
+        <COMPID name="Consultar Tareas Asignadas" mc="Standard.UseCase" uid="b3b27ca9-93bb-42ca-965f-893b330362a8"/>
+        <COMPID name="Consultar Registros Pendientes" mc="Standard.UseCase" uid="bfaf47bf-5e40-4a95-a3b1-7e6f3ccdf426"/>
+        <COMPID name="Revisar Resgitros" mc="Standard.UseCase" uid="56026809-03b8-4b23-a219-d9bb9c37b361"/>
+        <COMPID name="Validar Registros" mc="Standard.UseCase" uid="ac91830e-3ce2-45eb-9032-91c7f573629f"/>
+        <COMPID name="Gestionar Anomalias" mc="Standard.UseCase" uid="acc2d5da-a2f6-4034-806b-2eeeaca6bbe8"/>
+        <COMPID name="Consultar Incidendias" mc="Standard.UseCase" uid="d852fe20-e150-4893-b95e-89e3d485da9b"/>
+        <COMPID name="Analizar anomalias" mc="Standard.UseCase" uid="e5d2ba61-9925-41db-a414-0170ae4c9a77"/>
+        <COMPID name="Consultar Historial de Mantenimiento" mc="Standard.UseCase" uid="e1ff5de8-f05a-468f-8986-2765d691cb4d"/>
+        <COMPID name="Consultar Historial de Mediciones" mc="Standard.UseCase" uid="d5154195-dc96-4e5f-8412-4b05ecdaba5d"/>
+        <COMPID name="Consultar Estado General" mc="Standard.UseCase" uid="50ddca94-631d-439b-8508-0bf32121c76f"/>
+        <COMPID name="Consultar Informes" mc="Standard.UseCase" uid="dea016c6-e62d-4d50-969a-c32453444f42"/>
+        <COMPID name="Consultar Incidencias Graves" mc="Standard.UseCase" uid="b8b45bd7-1b49-4844-939e-5e3cfaf3801f"/>
+        <COMPID name="Consultar indicacioones" mc="Standard.UseCase" uid="43013817-6d3f-43f1-a913-63c72c0e046c"/>
+        <COMPID name="Registrar datos meteorológicos" mc="Standard.UseCase" uid="7538481a-a1a5-40fe-8946-633dbe44e7a4"/>
+        <COMPID name="Registrar cota del embalse" mc="Standard.UseCase" uid="65d52ccd-6baa-4734-85d2-68d0ebf407f1"/>
+        <COMPID name="Registrar filtraciones" mc="Standard.UseCase" uid="a729999a-a785-4d60-85b4-fed8d9608e7f"/>
+        <COMPID name="Registrar presión de piezómetros" mc="Standard.UseCase" uid="6d8b1991-d48f-4249-8990-0ade544bd23f"/>
+        <COMPID name="Registrar lecturas de péndulos" mc="Standard.UseCase" uid="4d5db7ef-9f40-4ffd-b3ef-1f8ca06635a4"/>
+        <COMPID name="Consultar mediciones anteriores" mc="Standard.UseCase" uid="c47b2edc-3945-4bc0-af72-4efd25deba86"/>
+        <COMPID name="Programar tareas de mantenimiento" mc="Standard.UseCase" uid="acfc57af-4dc6-4653-ab28-70e80c224f71"/>
+        <COMPID name="Consultar tareas completadas" mc="Standard.UseCase" uid="022f2fba-f309-488a-a989-a06575984b66"/>
+        <COMPID name="Registrar diagnóstico técnico" mc="Standard.UseCase" uid="54df3c59-9ac5-44c4-b33f-3dd1bcc6ee90"/>
+        <COMPID name="Consultar informes de mantenimiento" mc="Standard.UseCase" uid="f43c7890-8170-46bb-b77b-d56b11a503ab"/>
+        <COMPID name="Exportar datos a hojas de cálculo" mc="Standard.UseCase" uid="5a50ee31-c096-43ec-b77d-36e0699ae6c8"/>
+        <COMPID name="Registrar corrección de datos" mc="Standard.UseCase" uid="0e7fbca3-c9cc-4bfa-a381-956c9076dd4a"/>
+        <COMPID name="Notificar anomalías al equipo técnico" mc="Standard.UseCase" uid="c2952d9d-c0ea-4827-a0d6-c0af2c09d143"/>
+        <COMPID name="Registrar propuesta de actuación" mc="Standard.UseCase" uid="f7004ea4-7e4c-4071-828f-71e8baff2426"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="gesttion_presa_is Use Case diagram" mc="Standard.UseCaseDiagram" uid="186a3039-27fb-413e-ac21-5b04ec00d981"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
